@@ -12,6 +12,8 @@ namespace ConsoleApp8
             age = 21;
             name = "Kushagra";
         }
+
+        // it is not required, the real method is ToString()...
         public string toString()
         {
             return age + " " + name;
